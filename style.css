@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Nova Square', Arial, sans-serif;
+  background: #f6ffe5;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+}
+
+.card {
+  background: black url("https://img.freepik.com/free-vector/neon-light-wavy-background_23-2148899317.jpg");
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: bisque;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 1.3em;
+  text-align: left;
+
+}
+
+.card-number, .card-holder, .balance {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.actions {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 93%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 45%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.deposit {
+  background: #4caf50;
+  color: white;
+}
+
+.withdraw {
+  background: hsl(13, 100%, 56%);
+  color: white;
+}
+
+.history {
+  text-align: center;
+}
+
+.history h2 {
+  margin: 0 0 10px;
+}
+
+#transaction-history {
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#transaction-history li {
+  margin: 5px 0;
+}
+
+.deposit-text {
+  color: lime;
+}
+
+.withdraw-text {
+  color: rgb(255, 111, 0);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debit Card Interface</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>PUB BANK</h1>
+      <p class="card-number">9000 **** **** 1234</p>
+      <p class="card-holder">Meahadi Hasan</p>
+      <p class="balance">$<span id="balance">1000.00</span></p>
+    </div>
+
+    <div class="actions">
+      <input type="number" id="amount" placeholder="Amount" />
+      <div class="buttons">
+        <button id="deposit" class="btn deposit">Deposit</button>
+        <button id="withdraw" class="btn withdraw">Withdraw</button>
+      </div>
+    </div>
+
+    <div class="history">
+      <h2>Transaction History</h2>
+      <ul id="transaction-history"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
